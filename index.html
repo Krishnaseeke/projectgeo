@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>GEO-TECHNICAL ENGINEERING PROJECT</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css" media="all" >
+</head>
+
+<body>
+<header>
+	<img src="p2.jpg"alt="logo">
+	<h1>UTILIZATION OF LOCAL AVIALABLE MATERIALs TO STABILIZE NATIVE SOIL(EARTHEN ROADS)</h1>
+	<h2>we make your calculation simple and easy</h2>
+</header>
+<div class="nav">
+	<ul>
+		
+		<li><a href="CONTACT US.html">CONTACT US</a></li>
+	</ul>
+<form name="login"><br>
+Username:<input type="text" name="userid"/><br><br>
+Password:<input type="password" name="pswrd"/><br><br>
+<input type="button" onclick="check(this.form)" value="Login"/>
+<input type="reset" value="Cancel"/>
+</form>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "Krishnaseeke" && form.pswrd.value == "Krishna@145")
+  {
+    window.open('page.html')/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("Error Password or Username")/*displays error message*/
+  }
+}
+</script>
+<div class="footer">
+<p>Copyright© batch:2017-2021 Civil Engineering-@jntuacep.sgksol</p>
+</div>
+</body>
+
+</html>
